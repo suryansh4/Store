@@ -1,0 +1,22 @@
+/* prenavbar */
+.prenav{
+    display: grid;
+    background-color: black;
+    grid-template-columns: 5fr 2fr;
+    color: white;
+}
+.prenav > div{
+    margin: 1vmax;
+
+}
+.prenav > div > a{ 
+    color: rgb(180 , 180 , 180);
+    margin: 1vmax;
+    text-decoration: none;
+}
+.prenav > div :hover{
+    color: white;
+}
+.prenav > span{
+    opacity: 86%;
+}
